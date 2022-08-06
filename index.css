@@ -50,6 +50,10 @@ aside {
   position: fixed;
   left: 10px;
   bottom: 50px;
+  /* background-color: blanchedalmond; */
+  background-color: #f1d9b7;
+  padding: 7px;
+  border-radius: 5px;
 }
 a img:hover {
   transform: scale(2.5);
