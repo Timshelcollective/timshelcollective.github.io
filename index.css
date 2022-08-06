@@ -1,0 +1,77 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  text-align: justify;
+  font-family: sans-serif;
+}
+.logo {
+  height: 30px;
+}
+li a span {
+  font-size: large;
+  /* letter-spacing: 1px; */
+  font-weight: bold;
+}
+.heading {
+  color: #8a5623;
+}
+.card {
+  min-height: 650px;
+  padding: 25px;
+  margin: 10px;
+  text-align: justify;
+}
+.banner {
+  background-image: url("./assets/images/banner1.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: right 10px top;
+}
+.author {
+  font-size: 26px;
+  color: #b56e2d;
+}
+.team {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+footer {
+  background-color: black;
+}
+aside {
+  position: fixed;
+  left: 10px;
+  bottom: 50px;
+}
+a img:hover {
+  transform: scale(2.5);
+}
+/* @import url(//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css); */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #b56e2d;
+  border-radius: 50px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b56e2d;
+  border-radius: 50px;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
