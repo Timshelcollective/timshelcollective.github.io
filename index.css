@@ -40,6 +40,12 @@ li a span {
   margin: 10px;
   text-align: justify;
 }
+.cardcss {
+  min-height: 665px;
+  padding: 25px;
+  margin: 10px;
+  text-align: justify;
+}
 .card:hover {
   background-color: #f1d9b7;
   filter: drop-shadow(8px 8px 10px #8a5623);
