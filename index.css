@@ -117,10 +117,23 @@ a img:hover {
     background-image: url("./assets/images/banner.PNG");
     color: #b56e2d;
     background-position: center right;
-    /* background-attachment: fixed; */
+    /* -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px); */
   }
   #quote {
-    text-align: left;
-    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
   }
 }
