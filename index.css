@@ -113,6 +113,9 @@ a img:hover {
   scrollbar-width: none;
 }
 @media (max-width: 768px) {
+  #navbarNav {
+    text-align: center;
+  }
   .banner {
     background-image: url("./assets/images/banner.PNG");
     color: #b56e2d;
