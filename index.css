@@ -22,7 +22,7 @@ html {
 p {
   text-align: justify;
   font-family: "Times New Roman";
-  font-size: 19px;
+  font-size: 20px;
 }
 .logo {
   height: 30px;
@@ -35,13 +35,7 @@ li a span {
   color: #8a5623;
 }
 .card {
-  min-height: 650px;
-  padding: 25px;
-  margin: 10px;
-  text-align: justify;
-}
-.cardcss {
-  min-height: 700px;
+  min-height: 750px;
   padding: 25px;
   margin: 10px;
   text-align: justify;
@@ -63,12 +57,18 @@ li a span {
   display: flex;
   justify-content: center;
 }
+#reference {
+  font-size: 12px;
+}
 .author {
   font-size: 26px;
   color: #b56e2d;
 }
 a {
   text-decoration: none;
+}
+#wpl {
+  font-size: 12px;
 }
 .team {
   border-radius: 50%;
