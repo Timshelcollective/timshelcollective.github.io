@@ -117,6 +117,6 @@ a img:hover {
     background-image: url("./assets/images/banner.PNG");
     color: #b56e2d;
     background-position: center right;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 }
