@@ -103,6 +103,10 @@ a img:hover {
   padding: 2px;
   border-radius: 5px;
 }
+.logo:hover {
+  transform: none;
+  background-color: #f8f9fa;
+}
 ::-webkit-scrollbar {
   width: 5px;
 }
